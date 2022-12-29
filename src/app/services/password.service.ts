@@ -50,6 +50,4 @@ export class PasswordService {
       scoreTemplates.easy : level == 2 ? 
       scoreTemplates.medium : scoreTemplates.strong;
   }
-
-  constructor() { }
 }
